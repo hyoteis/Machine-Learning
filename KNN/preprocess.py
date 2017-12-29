@@ -37,12 +37,16 @@ class Preproce(object):
 
 
 if __name__ == "__main__":
-	pp = Preproce()
-	with open("./data.txt", "r") as f:
-		data = f.readlines()
-	with open("./target.txt", "r") as e:
-		target = e.readlines()
-	train_x, test_x, train_y, test_y=pp.train_test_split(data, target, 0.4)
+	# pp = Preproce()
+	# with open("./data.txt", "r") as f:
+	# 	data = f.readlines()
+	# with open("./target.txt", "r") as e:
+	# 	target = e.readlines()
+	# train_x, test_x, train_y, test_y=pp.train_test_split(data, target, 0.4)
 
-	for i in range(len(train_x)):
-		print train_x[i], "-",train_y[i]
+	# for i in range(len(train_x)):
+	# 	print train_x[i], "-",train_y[i]
+	from collections import Counter
+	a = ['sda','sda','asd','dg']
+	b = Counter(a)
+	print max(b.values())

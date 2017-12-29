@@ -4,6 +4,8 @@ import numpy as np
 from preprocess import Preproce as pp
 
 class KNN(object):
+	def __init__(self):
+		pass
 	
 
 

@@ -46,7 +46,12 @@ if __name__ == "__main__":
 
 	# for i in range(len(train_x)):
 	# 	print train_x[i], "-",train_y[i]
-	from collections import Counter
-	a = ['sda','sda','asd','dg']
-	b = Counter(a)
-	print max(b.values())
+	# from collections import Counter
+	# a = ['sda','sda','asd','dg']
+	# b = Counter(a)
+	# print max(b.values())
+	a = {
+		"a":1,
+		"b":2
+	}
+	print a.index(a)
